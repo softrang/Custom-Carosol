@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #66cdaa;
+}
+
+#main{
+    position: absolute;
+    width: 80%;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff5ee;
+    overflow: hidden;
+}
+
+.card{
+   position: absolute;
+    width: 100%;
+    height: 300px;
+    
+    /*background-color: blueviolet;*/
+    
+
+}
+.scard{
+    display: flex;
+    
+     width: 100%;
+     height: 280px;
+     
+     /*background-color: blueviolet;*/
+     
+ 
+ }
+
+.mincard{
+   
+     width: 20%;
+     height: 300px;
+     
+     
+     
+     
+ 
+ }
+
+.lacard{
+    position: absolute;
+    width: 18%;
+    height: 280px;
+    top: 50%;
+    left: 1%;
+    transform: translate(0%, -50%);
+    
+}
+.lacard img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#next{
+    position: absolute;
+    color: #6633FF;
+    font-size: 50px;
+    z-index: 1;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+    
+}
+#prev{
+    position: absolute;
+    color: #6633FF;
+    font-size: 50px;
+    z-index: 1;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    
+}
